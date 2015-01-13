@@ -1,11 +1,15 @@
 body {
-	background: #f9e933
+	background: #f9e933;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Ubuntu', sans-serif;
 }
 
 header, main, footer {
 	min-width: 855px;
 }
-	background: white;
 
 header .container, main .container, footer .container {
 	max-width: 855px;
