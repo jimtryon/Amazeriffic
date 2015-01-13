@@ -29,17 +29,18 @@ h2 {
 h3 {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: medium;
+	margin-bottom: 20px;
 }
 
 h5 {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: large;
-	margin-bottom: 20px;
 }
 
 p {
 	font-family: 'Droid-Sans', sans-serif;
 	font-size: small;
+	margin-bottom: 20px;
 }
 
 header, main, footer {
