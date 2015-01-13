@@ -1,12 +1,9 @@
 body {
 	background: #f9e933;
 	font-family: 'Droid Sans', sans-serif;
-	font-size: 100%;
 }
 
 a {
-	font-family: 'Droid-Sans', sans-serif;
-	font-size: smaller;
 	font-weight: bold;
 	color: red;
 	text-decoration: none;
@@ -20,17 +17,6 @@ h1 {
 	font-style: italic;
 	font-size: xx-large;
 	color: #b33;
-}
-
-h2 {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: x-large;
-}
-
-h3 {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: medium;
-	margin-bottom: 20px;
 }
 
 h5 {
@@ -73,6 +59,37 @@ main {
 
 }
 
+main .content {
+    padding: 30px 10px 30px 10px;
+    border-radius: 0 5px 5px 5px;
+    background: #eee;
+}
+
+main .content li {
+    border-radius: 5px;
+    padding: 3px;
+    background: #eff;
+    margin: 0 0 10px 0;
+}
+
+main .content button {
+  font-weight: bold;
+  padding: 0 3px 0 3px;
+  border-radius: 5px;
+  background: #ccc;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 1.3em;
+}
+
+main .content p {
+    background: yellow;
+}
+
+main .content input {
+    font-size: 1.5em;
+}
+
 main .left {
 	float: left;
 	width: 570px;
@@ -104,5 +121,16 @@ footer .sitemap {
 .answer {
 	line-height: 20px;
 	color: blue;
+}
+
+.tabs a span {
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	background: #ddd;
+	padding: 5px;
+}
 }
 
