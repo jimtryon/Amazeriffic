@@ -41,6 +41,7 @@ header nav {
   width: 285px;
 }
 
+
 a {
   color: #f00;
   text-decoration: none;
@@ -133,4 +134,12 @@ footer .sitemap .left {
 
 footer .sitemap .right {
     float: right;
+}
+
+.question {
+  color: #000;
+}
+
+.answer {
+  color: red;
 }
