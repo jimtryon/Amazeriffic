@@ -1,0 +1,11 @@
+{
+  "uploadOnSave": false,
+  "hostname": "jim.greenrivertech.net",
+  "port": "21",
+  "target": "/public_html/Projects/Amazeriffic/",
+  "ignore": [
+    ".git/**"
+  ],
+  "username": "jim",
+  "transport": "scp"
+}
