@@ -32,7 +32,9 @@ app.use(express.static(__dirname + "/client"));
 
 // tell Express to parse incoming
 // JSON objects
-app.use(express.urlencoded());
+
+var bodyParser = require("body-parser");
+app.use(bodyParser.urlencoded({ extended: true}));
 
 http.createServer(app).listen(3000);
 
