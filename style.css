@@ -1,0 +1,108 @@
+body {
+	background: #f9e933;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 100%;
+}
+
+a {
+	font-family: 'Droid-Sans', sans-serif;
+	font-size: smaller;
+	font-weight: bold;
+	color: red;
+	text-decoration: none;
+}
+
+
+h1 {
+	float: left;
+	width: 570px;
+	font-family: 'Ubuntu', sans-serif;
+	font-style: italic;
+	font-size: xx-large;
+	color: #b33;
+}
+
+h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: x-large;
+}
+
+h3 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: medium;
+	margin-bottom: 20px;
+}
+
+h5 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: large;
+}
+
+p {
+	font-family: 'Droid-Sans', sans-serif;
+	font-size: small;
+	margin-bottom: 20px;
+}
+
+header, main, footer {
+	min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+	max-width: 855px;
+	margin: auto;
+}
+
+header {
+	background: white;
+	overflow: auto;
+	padding: 25px 0 25px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+header nav {
+	float: right;
+	width: 285px;
+}
+
+main {
+	background: white;
+	overflow: auto;
+	border-radius: 0 5px 5px 5px;
+	padding: 40px;
+
+}
+
+main .left {
+	float: left;
+	width: 570px;
+}
+
+main .right {
+	float: right;
+	width: 285px;
+}
+
+
+footer .left {
+	float: left;
+	width: 570px;
+}
+
+footer .sitemap {
+	float: right;
+	width: 285px;
+}
+
+.question {
+	color: green;
+	font-size: larger;
+	line-height: 35px;
+
+}
+
+.answer {
+	line-height: 20px;
+	color: blue;
+}
+
