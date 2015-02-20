@@ -81,16 +81,22 @@ var main = function (toDoObjects) {
                     var description = $input.val(),
                         tags = $tagInput.val().split(",");
 
-                    toDoObjects.push({"description":description, "tags":tags});
+                
+		 // create the new to-do item
+		var newToDo = {"description":description, "tags":tags};
+		$.post("todos", newToDo, function (result) { 
+		console.log(result);  
+		 toDoObjects.push(newToDo);
 
                     // update toDos
                     toDos = toDoObjects.map(function (toDo) {
                         return toDo.description;
                     });
+	});
 
                     $input.val("");
                     $tagInput.val("");
-                });
+});
 
                 $content = $("<div>").append($inputLabel)
                                      .append($input)

@@ -33,10 +33,12 @@ app.use(express.static(__dirname + "/client"));
 // tell Express to parse incoming
 // JSON objects
 
-var bodyParser = require("body-parser");
-app.use(bodyParser.urlencoded({ extended: true}));
-
+// Create server using Express
 http.createServer(app).listen(3000);
+
+app.use(express.static(__dirname + "/client"));
+app.use(express.urlencoded());
+app.use(express.json());
 
 // This route takes the place of our
 // todos.json file in our example from
